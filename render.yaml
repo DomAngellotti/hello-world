@@ -1,10 +1,18 @@
 services:
+
   - type: web
+
     name: hello-world
+
     env: ruby
+
     plan: free
+
     buildCommand: "./bin/render-build.sh"
+
+    
     startCommand: "./bin/render-start.sh"
     
+
     
     
